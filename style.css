@@ -2,10 +2,20 @@ html {
   font-family: Arial,sans-serif;
 }
 body {
-  margin: 1em;
+  margin: 1.25em;
 }
-@media only screen and (min-width:600px) {
-  body {
-    margin: 3em;
-  }
+header, main, footer {
+  max-width: 50em;
+  margin: auto;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-item-left {
+  flex: 60%;
+}
+.flex-item-right{
+  flex: 40%;
 }
