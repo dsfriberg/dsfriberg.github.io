@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Dan Friberg</h1>
+        <h1 id="home"><a href="/">Dan Friberg</a></h1>
         <nav>
             <a href="/">Home</a> | 
             <a href="/bio.html">Bio</a> | 
@@ -18,8 +18,8 @@
         </nav>    
     </header>
     <main>
-        <h2>Hello!</h2>
-        <p>I am a clarinetist, retailer, and novice website developer living in Bloomington, Minnesota. I play and teach the clarinet on a freelance basis, manage the combined printed music departments of <a href="https://www.grothmusic.com" target="_blank" title="Visit grothmusic.com" rel="noopener">Groth and Eble Music Cos.</a>, and dabble in web design.</p>
+        <figure><img src="headshot-a.jpg" width="175" height="175" alt="Dan Friberg" style="border-radius: 50%;"></figure>
+        <p>I am a clarinetist, retailer, and novice web developer living in Bloomington, Minnesota. I play and teach the clarinet on a freelance basis, manage the combined printed music departments of <a href="https://www.grothmusic.com" target="_blank" title="Visit grothmusic.com" rel="noopener">Groth and Eble Music Cos.</a>, and dabble in web design.</p>
         <h2 style="margin-block-end:.17em">My Book</h2>
         <div class="flex-container">
             <div class="flex-item-left">
@@ -27,14 +27,17 @@
                 <p>Available for purchase at <a href="https://www.grothmusic.com/p-75917.aspx" target="_blank" title="Buy Clarinet Excerpts in Context" rel="noopener">Groth Music</a>.</p>
             </div>
             <div class="flex-item-right">
-                <figure style="text-align: center;"><a href="https://www.grothmusic.com/p-75917.aspx" target="_blank" title="Buy Clarinet Excerpts in Context" rel="noopener"><img src="book.jpg" width="190" height="250" alt="Clarinet Excerpts in Context"></a></figure>
+                <figure><a href="https://www.grothmusic.com/p-75917.aspx" target="_blank" title="Buy Clarinet Excerpts in Context" rel="noopener"><img src="book-a.jpg" width="175" height="220" alt="Clarinet Excerpts in Context"></a></figure>
             </div>
         </div>
         <h2>Design</h2>
-        <p>I became interested in web design and development as a means to an end, namely understanding and improving our store's website: <a href="https://www.grothmusic.com" target="_blank" title="Visit grothmusic.com" rel="noopener">grothmusic.com</a>. Like the ecommerce sites of many small and midsized businesses, grothmusic.com utilizes a plug and play shopping cart platform. That platform in turn relies on various other prefabricated frameworks (ASP.NET, Bootstrap), libraries (Jquery), and APIs (Google reCAPTCHA, Analytics, Web Fonts, etc.). Superficially, the platform was adequate for its purpose, but the more I worked with it the more I found it to be rigid, complex, and SLOW. For a musician with no coding experience, it seemed downright impenetrable, especially when it came to improving performance.</p>
+        <p>I became interested in web design and development as a means to an end, namely understanding and improving our store's website: <a href="https://www.grothmusic.com" target="_blank" title="Visit grothmusic.com" rel="noopener">grothmusic.com</a>. Like the ecommerce sites of many small and midsized businesses, grothmusic.com utilizes a plug and play shopping cart platform. That platform in turn relies on various other frameworks (ASP.NET, Bootstrap), libraries (Jquery), and APIs (Google reCAPTCHA, Analytics, Web Fonts, etc.). Superficially, the platform was adequate for its purpose, but the more I worked with it the more I found it to be rigid, complex, and SLOW. For a musician with no coding experience, it seemed downright impenetrable, especially when it came to improving performance.</p>
         <p>Throughout the entire year of the pandemic and with the help of others more qualified than myself, we have gradually made some measurable progress on the speed, functionality, and design of our site. For me, this entailed learning HTML, CSS, a smattering of Javascript and JQuery, and the basics of ASP.NET MVC and SQL. Also necessary were VS Code, github and Bitbucket, Inkscape, and a variety of other tools like WebPageTest, PageSpeed Insights, FileZilla, Paint, and so on. The work is ongoing, and as of March 2021 I have yet to achieve my goal of meeting the Google Core Web Vitals benchmarks sitewide.</p>
         <p>Actually, improving the performance of grothmusic.com turned out to largely be an exercise in deconstruction. Figuring out which "features" of the shopping cart platform we DIDN'T need and then removing or reducing them without breaking the site was the challenge. A few weeks ago this blog post by Steren Giannini appeared in my feed: <a href="https://blog.steren.fr/2020/my-stack-will-outlive-yours/" target="_blank" rel="noopener">My stack will outlive yours</a>. After struggling against the layers of complexity involved with the Groth site, Steren's approach resonated with me: HTML+CSS, simple as that. I decided to apply it to my vanity website. I also used Github Pages as he did, which has allowed me to ditch my webhost and save $7.99/month.</p>
 
     </main>
+    <footer>
+        <p>Email: <a href="mailto:dsfriberg@gmail.com">dsfriberg@gmail.com</a></p>
+    </footer>
 </body>
 </html>
