@@ -16,6 +16,7 @@ figure {
 }
 footer {
   border-top: 1px solid #ddd;
+  position:relative;
 }
 .flex-container {
   display: flex;
@@ -34,4 +35,12 @@ footer {
 }
 #home a:hover {
   opacity: .66;
+}
+#linkedin {
+  color:#0A66C2;
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  right: 0;
+  top: 11px;
 }
