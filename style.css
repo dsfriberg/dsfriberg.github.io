@@ -29,6 +29,11 @@ footer {
 .flex-item-right{
   flex: 35%;
 }
+.iframe {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
 #home a {
   text-decoration: none;
   color: black;
